@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(44, 44, 150);
+}
+
+.Contenner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+
+}
+.main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    width: 500px;
+    transform: translateX(-50px);
+   
+   /*  transform:skew(-25deg) ; */
+     
+}
+
+
+.Div1{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid white;
+    animation: Animatsia1 infinite linear;
+    animation-duration: 3s;
+    box-sizing: border-box;
+   
+
+
+}
+.Div2{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    background-color:red;
+    border-radius: 10px;
+    border: 2px solid white;
+    animation: Animatsia2 infinite linear;
+    animation-duration: 3s;
+    box-sizing: border-box;
+  
+
+}
+.Div3{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid white;
+    animation: Animatsia3 infinite linear;
+    animation-duration: 3s ;
+    box-sizing: border-box;
+
+
+}
+.Div4{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid white;
+    animation: Animatsia4 infinite linear;
+    animation-duration: 3s;
+    box-sizing: border-box;
+
+
+}
+.Div5{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    background-color:red;
+    border-radius: 10px;
+    border: 2px solid white;
+    animation: Animatsia5 infinite linear;
+    animation-duration: 3s;
+    box-sizing: border-box;
+
+
+}
+@keyframes Animatsia1{
+    0%{
+        transform: translate(100px,-100px);
+    }
+    8.33%{
+        transform: translate(100px,0);
+    
+    }
+    16.67%{
+        transform: translate(100px,0);
+    }
+    25%{
+        transform: translate(100px,0);
+    }
+    33.33%{
+        transform: translate(100px,0);
+    }
+    41.67%{
+        transform: translate(100px,0);
+    }
+    50%{
+        transform: translate(100px,0);
+    }
+    58.33%{
+        transform: translate(100px,0);
+    }
+    66.67%  {
+        transform: translate(100px,0);
+    }
+    75%  {
+        transform: translate(100px,0);
+    }
+    83.33%{
+        transform: translate(100px,0);
+    }
+    91.67%{
+        transform: translate(100px,0);
+    }
+    100%  {
+        transform: translate(100px,0);
+    }
+
+}
+@keyframes Animatsia2{
+    8.33%{
+        transform: translate(0,100px);
+
+    }
+    16.67%{
+       transform: translate(100px,100px);
+    }
+    25%{
+        transform: translate(100px,0);
+    }
+    33.33%{
+        transform: translate(100px,0);
+    }
+    41.67%{
+        transform: translate(100px,0);
+    }
+    50%{
+        transform: translate(100px,0);
+    }
+    58.33%{
+        transform: translate(100px,0);
+    }
+    66.67%  {
+        transform: translate(100px,0);
+
+    }
+    75%  {
+        transform: translate(100px,0);
+    }
+    83.33%{
+        transform: translate(100px,0);
+    }
+    91.67%{
+        transform: translate(100px,-100px);
+    }
+    100%  {
+        transform: translate(0,-100px);
+    }
+    
+   
+
+}
+@keyframes Animatsia3{
+    8.33%{
+        transform: translate(0,0);
+
+     }
+     16.67%{
+         transform: translate(0,0);
+     }
+     25%{
+         transform: translate(0,-100px);
+     }
+     33.33%{
+         transform: translate(100px,-100px);
+     }
+     41.67%{
+         transform: translate(100px,0);
+     }
+     50%{
+         transform: translate(100px,0);
+     }
+     58.33%{
+         transform: translate(100px,0);
+     }
+     66.67%  {
+         transform: translate(100px,0);
+     }
+     75%  {
+         transform: translate(100px,100px);
+     }
+     83.33%{
+         transform: translate(0,100px);
+     }
+     91.67%{
+         transform: translate(0,0);
+     }
+     100%  {
+         transform: translate(0,0);
+     }
+}
+@keyframes Animatsia4{
+    8.33%{
+        transform: translate(0,0);
+    }
+    16.67%{  transform: translate(0,0);
+
+    }
+    25%{
+    transform: translate(0,0);
+    }
+    33.33%{
+        transform: translate(0,0);
+    }
+    41.67%{
+        transform: translate(0,100px);
+    }
+    50%{
+        transform: translate(100px,100px);
+    }
+    58.33%{
+        transform: translate(100px,0);
+    }
+    66.67%  {
+        transform: translate(100px,0);
+    }
+    75%  {
+        transform: translate(100px,0);
+    }
+    83.33%{
+        transform: translate(100px,0);
+    }
+    91.67%{
+        transform: translate(100px,0);
+    }
+    100%  {
+        transform: translate(100px,0);
+    }
+
+}
+@keyframes Animatsia5{
+    8.33%{
+        transform: translate(0,0);
+    }
+    16.67%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,0);
+    }
+    33.33%{ transform: translate(0,0);
+
+    }
+    41.67%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    58.33%{
+        transform: translate(0,-100px);
+    }
+    66.67%  {
+        transform: translate(-100px,-100px);
+    }
+    75%  {
+        transform: translate(-100px,0);
+    }
+    83.33%{
+        transform: translate(-100px,0);
+    }
+    91.67%{
+        transform: translate(-100px,0);
+    }
+    100%  {
+        transform: translate(-100px,0);
+    }
+
+}

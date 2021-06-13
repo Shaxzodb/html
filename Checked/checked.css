@@ -1,0 +1,46 @@
+/* body{
+    background-image:url(sayt1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -10px -60px;
+} */
+input {
+    position: relative;
+    height: 40px;
+    width: 100px;
+    -webkit-appearance: none;
+    background: #6c6c6c;
+    border-radius: 20px;
+    outline: none;   
+    border: 2px solid yellowgreen;
+   
+}
+input:checked {
+    background-color: rgb(18, 18, 240);
+}
+input::before{
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    content:"";
+    width: 65px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    border: 2px solid yellowgreen;
+    transform:  scale(.9);
+    transition: .4s;
+    box-sizing: border-box;
+}
+input:checked::before{
+    
+    left: 34px;
+    background-color: yellow;
+    border:2px solid black ;
+    
+
+}
+input:checked ~ .check{
+    background-color: #990a0a;
+    box-shadow: #6c6c6c;
+}
