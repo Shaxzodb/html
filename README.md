@@ -7,7 +7,7 @@ Readme file
 ***
 >  _README.md Code[^2]_ HTML
 
-1 | 2 | 3
+HTML | CSS | SASS
 :---|-------|---:
 1 | 2 | 3
 
