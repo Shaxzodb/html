@@ -14,4 +14,4 @@ HTML | CSS | SASS
 bu juda zur
 ===
 HTML ANIMATSEA
-![coders](https://learncodeonline.in/mascod.png)
+![coders](https://learncodeonline.in/mascot.png)
