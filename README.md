@@ -12,5 +12,5 @@ HTML | CSS | SASS
 1 | 2 | 3
 
 bu juda zur
-============================
+===
 HTML ANIMATSEA
