@@ -4,5 +4,4 @@
 <p color='red'>html code</p>
 ```
 ***
->  _README.md Code_
-[^1]:HTML
+>  _README.md Code_[^1] HTML
