@@ -4,7 +4,7 @@ Readme file
 ```html
 <p color='red'>html code</p>
 ```
-***
+---
 ```python
   pip install Django
 ```
