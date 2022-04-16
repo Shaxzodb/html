@@ -8,9 +8,9 @@ Readme file
 ```python
   pip install Django
 ```
-***
->  _README.md Code[^2]_ HTML
 
+>  _README.md Code[^2]_ HTML
+***
 |HTML|CSS|SASS|  
 |--- |---|--- |
 | 1  | 2 | 3  |
