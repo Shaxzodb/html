@@ -4,10 +4,11 @@ Readme file
 ```html
 <p color='red'>html code</p>
 ```
----
+
 ```python
   pip install Django
 ```
+***
 >  _README.md Code[^2]_ HTML
 
 |HTML|CSS|SASS|  
